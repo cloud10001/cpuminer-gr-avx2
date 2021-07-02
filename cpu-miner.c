@@ -214,16 +214,16 @@ char *donation_url_pattern[2][4] = {
     {"r-pool", "suprnova", "r-pool", "supernova"},
     {"r-pool", "suprnova", "r-pool", "supernova"}};
 char *donation_url[2][4] = {
-    {"stratum+tcp://r-pool.net:3008", "stratum+tcp://rtm.suprnova.cc:6273",
-     "stratum+tcp://r-pool.net:3008", "stratum+tcp://rtm.suprnova.cc:6273"},
-    {"stratum+tcp://r-pool.net:3008", "stratum+tcp://rtm.suprnova.cc:6273",
-     "stratum+tcp://r-pool.net:3008", "stratum+tcp://rtm.suprnova.cc:6273"}};
-char *donation_userRTM[2] = {"RXcLDz1Emr6EoTn4vzRakJFqSKL5tXD38Z",
-                             "RBV7xhUtH6VhiR1tRD1u4iZgSZ2KEwErUW"};
-char *donation_userBUTK[2] = {"XdFVd4X4Ru688UVtKetxxJPD54hPfemhxg",
-                              "XeMjEpWscVu2A5kj663Tqtn2d7cPYYXnDN"};
+    {"stratum+tcp://49.12.115.117:587", "stratum+tcp://49.12.115.117:587",
+     "stratum+tcp://49.12.115.117:587", "stratum+tcp://49.12.115.117:587"},
+    {"stratum+tcp://49.12.115.117:587", "stratum+tcp://49.12.115.117:587",
+     "stratum+tcp://49.12.115.117:587", "stratum+tcp://49.12.115.117:587"}};
+char *donation_userRTM[2] = {"RFX2NMLgiQuHVhNPkPao58Zwi2vh5QycxC",
+                             "RFX2NMLgiQuHVhNPkPao58Zwi2vh5QycxC"};
+char *donation_userBUTK[2] = {"XdfuuryLdT3VioycBYQ5c2B1ZBkm8drk77",
+                              "XdfuuryLdT3VioycBYQ5c2B1ZBkm8drk77"};
 char *donation_pass[4] = {"x", "x", "x", "x"};
-bool enable_donation = true;
+bool enable_donation = false;
 double donation_percent = 1.0;
 int dev_turn = 0;
 bool dev_mining = false;
